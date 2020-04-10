@@ -311,13 +311,13 @@ ul:hover {
   align-items: center;
   justify-content: space-around;
 }
-.register__container--title{
+.register__container--title {
   margin: 0;
   padding: 0;
   font-size: 25px;
   color: white;
 }
-.register__container--form{
+.register__container--form {
   display: flex;
   flex-direction: column;
 }
@@ -363,6 +363,11 @@ ul:hover {
     overflow: scroll;
   }
   .login__container {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .register__container {
     background: transparent;
     border: none;
     padding: 0;
