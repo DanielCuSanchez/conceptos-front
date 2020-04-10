@@ -14,6 +14,7 @@ body {
   align-items: center;
   background-color: rgba(255, 255, 255, 1);
 }
+
 .header__img {
   height: 60px;
 }
@@ -58,7 +59,7 @@ ul:hover {
   margin: 10px 12px;
 }
 .header__menu--profile p {
-  color: white;
+  color: black;
   margin: 0;
 }
 .main {
@@ -289,6 +290,37 @@ ul:hover {
   text-decoration: underline;
 }
 
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  min-height: calc(100vh - 180px);
+}
+.register__container {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px solid white;
+  color: white;
+  border-radius: 40px;
+  padding: 60px 68px 40px;
+  min-height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.register__container--title{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: white;
+}
+.register__container--form{
+  display: flex;
+  flex-direction: column;
+}
 .error {
   display: flex;
   flex-direction: column;
@@ -310,20 +342,20 @@ ul:hover {
   align-items: center;
   justify-content: space-around;
 }
-.error__container--title{
+.error__container--title {
   padding: 0;
   margin: 0;
   font-size: 100px;
   font-weight: bold;
 }
-.error__container--subtitle{
+.error__container--subtitle {
   padding: 0;
   margin: 0;
   font-size: 16px;
   font-weight: normal;
 }
 @media only screen and (max-width: 600px) {
-  .header {
+  .header-login {
     display: flex;
     justify-content: center;
   }
